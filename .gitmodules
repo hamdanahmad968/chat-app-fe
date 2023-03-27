@@ -1,0 +1,3 @@
+[submodule "chat-app-fe"]
+	path = chat-app-fe
+	url = https://github.com/hamdanahmad968/chat-app-fe.git
