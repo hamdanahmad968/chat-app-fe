@@ -60,13 +60,13 @@ export default function ChatRoom() {
 
   return (
     // <div>
-    <div className="py-4 m-5 w-50 shadow bg-white text-dark border rounded container">
+    <div className="py-4 m-5 w-50 shadow bg-white text-dark border rounded container w-auto ">
       <div className="text-center px-3 mb-4 text-capitalize">
         <h1 className="text-success mb-3">{data?.room} Chat Room</h1>
       </div>
       <div
-        className="bg-light border rounded p-3 mb-4"
-        style={{ height: "400px", overflowY: "scroll" }}>
+        className="bg-light border rounded p-3 mb-4 "
+        style={{ height: "400px", width: "auto" , overflowY: "scroll" }}>
            
 
             {
