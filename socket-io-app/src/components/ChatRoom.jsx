@@ -14,7 +14,8 @@ export default function ChatRoom() {
 
 
   useEffect(()=>{
-    const socket = io("https://bckend-chat.onrender.com");
+    // const socket = io("https://bckend-chat.onrender.com");
+    const socket = io("https://backend-r5xt07rpm-hamdanahmad968.vercel.app");
     setSocket(socket)
     socket.on("connect", () => {
         socket.emit("joinRoom" , location.state.room)
