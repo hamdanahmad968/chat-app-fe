@@ -14,7 +14,7 @@ export default function ChatRoom() {
 
 
   useEffect(()=>{
-    const socket = io("http://chat-app-1o8yiuxn3-hamdanahmad968.vercel.app");
+    const socket = io("http://chat-app-be-ten.vercel.app");
     setSocket(socket)
     socket.on("connect", () => {
         socket.emit("joinRoom" , location.state.room)
