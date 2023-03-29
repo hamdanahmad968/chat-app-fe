@@ -43,7 +43,8 @@ export default function ChatRoom() {
   };
 
   const handleEnter =(e)=>{
-    e.keyCode === 13 ? onSubmit() : ""
+    return e.keyCode === 13 ? onSubmit() : ""
+    
   }
 
   const onSubmit = () => {
